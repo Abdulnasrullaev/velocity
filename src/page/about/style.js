@@ -99,9 +99,46 @@ export const Section = styled.div`
       margin: auto;
       font-size: 30px;
       text-transform: capitalize;
-      span{
-        color:  #6A859C;
+
+      span {
+        color: #6A859C;
         font-size: 16px;
+      }
+    }
+  }
+`
+
+export const EndTitle = styled.div`
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+margin: 10px auto;
+  .cardss {
+    width: 28%;
+    margin: 10px 20px;
+
+    p {
+      color: #676770;
+      text-transform: uppercase;
+
+      span {
+        text-transform: none;
+        color: #6A859C;
+
+      }
+    }
+    nav{
+      list-style: none;
+      margin: 12px 0 0 0;
+      line-height: 40px;
+      color: #668CAD;
+    hr{
+      border: 1px solid #D5D5E0;
+      
+    }
+      li{
+       color: #668CAD;
+text-transform: capitalize;
       }
     }
   }
